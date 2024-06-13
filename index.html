@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QS World Rankings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--header-->
+<header class="header">
+    <a href="#" class="logo">
+     <img src="logo.jpeg">
+    </a>
+    <nav class="navbar">
+     <a href="#rankings">RANKINGS</a>
+     <a href="#discover">DISCOVER</a>
+     <a href="#events">EVENTS</a>
+     <a href="#prepare">PREPARE</a>
+     <a href="#apply">APPLY</a>
+     <a href="#careers">CAREERS</a>
+     <a href="#community">COMMUNITY</a>
+    </nav>
+    <div class="application">Apply now</div>
+    <div class="icon">
+     <div class="fas fa-search" id="search-btn"></div>
+    </div>
+    <div class="login">LOGIN</div>
+    <div class="signup">SIGN UP</div>
+</header>
+<!--home-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Find your dream university today</h3>
+        <img src="background.webp">
+    </div>
+ </section>
+ <!--Search-->
+ <div class="search-container">
+    <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('destinationDropdown')">Study Destination <span>&#x25BC;</span></button>
+        <div id="destinationDropdown" class="dropdown-content">
+            <a href="#">USA</a>
+            <a href="#">UK</a>
+            <a href="#">Canada</a>
+            <a href="#">Australia</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('majorDropdown')">Study Major <span>&#x25BC;</span></button>
+        <div id="majorDropdown" class="dropdown-content">
+            <a href="#">Engineering</a>
+            <a href="#">Medicine</a>
+            <a href="#">Business</a>
+            <a href="#">Arts</a>
+        </div>
+    </div>
+    <button class="explore-btn"><i class="fas fa-search"></i> Explore</button>
+</div>
+
+ <!--Rankings-->
+ <section class="rankings" id="rankings">
+  <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="row1-1.webp">
+        </div>
+        <div class="content">
+          <h3>QS World University Rankings 2025</h3>
+          <p>Discover the top-performing universities around the world</p>
+          <a href="#" class="btn">Explore -></a>
+      </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="row1-2.jpg">
+        </div>
+        <div class="content">
+          <h3>QS World University Rankings by Subject 2024</h3>
+          <p>Find out which universities excel in your chosen subject</p>
+          <a href="#" class="btn">Explore -></a>
+      </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="row1-3.webp">
+        </div>
+        <div class="content">
+          <h3>QS Best Student Cities 2024</h3>
+          <p>Discover the best cities for students around the world and find your perfect study destination</p>
+          <a href="#" class="btn">Explore -></a>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!--Reviews-->
+    <section class="reviews" id="reviews">
+        <h2>What Our Students Say</h2>
+        <div class="review-container">
+            <div class="review-box">
+                <p>"My counsellor's assistance at every step has been invaluable, and I cannot thank him enough for making my dreams a reality."</p>
+            </div>
+            <div class="review-box">
+                <img src="pranay.webp" alt="Student Photo">
+                <p>"Master of Science in Global Logistics,W.P Carey School of Business,Arizona State University"</p>
+            </div>
+            <div class="review-box">
+                <p>"QS were a huge help fdrom thevery beginning.When I felt overwhelmed, it was my counsellor who helped me to clarify my goals and find a programme best suited for my life."</p>
+            </div>
+        </div>
+    </section>
+    <!--support-->
+    <section class="support">
+        <div class="support-content">
+            <h2>How QS Can Support You</h2>
+            <p>We're here to support you through all stages of the university journey; whether it's researching institutions, navigating admissions or submitting your application.</p>
+        </div>
+    </section>
+<!--features-->
+<section class="features">
+    <div class="feature">
+        <div class="feature-content">
+            <h2>Find the Right Course for You</h2>
+            <p>Our course matching tool features thousands of programmes and uses your personal study preferences to find the right course for you.</p>
+            <button class="feature-button">Find your course<i class="fas fa-arrow-right"></i> </button>
+        </div>
+        <div class="feature-image">
+            <img src="row2-1.webp" alt="Course Matching Tool Image">
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-image">
+            <img src="row2-2.webp">
+        </div>
+        <div class="feature-content">
+            <h2>Easily Compare Universities with QS Rankings</h2>
+            <p>Filter our rankings by region or subject to compare university performance in factors that matter to you including reputation, employability and sustainability.</p>
+            <button class="feature-button">Explore rankings<i class="fas fa-arrow-right"></i> </button>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-content">
+            <h2>Personalized Advice and Support with Your University Application</h2>
+            <p>Our friendly QS counsellors have helped to submit over 13,000 applications and will personally guide you through to enrolment on your chosen course.</p>
+            <button class="feature-button">Speak to a consultant<i class="fas fa-arrow-right"></i> </button>
+        </div>
+        <div class="feature-image">
+            <img src="row2-3.webp">
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-content">
+            <h2>Meet universities in person</h2>
+            <p>Meet university representatives from around the world at our global events and get your questions answered in person..</p>
+            <button class="feature-button">Find an event near you<i class="fas fa-arrow-right"></i> </button>
+        </div>
+        <div class="feature-image">
+            <img src="row2-4.webp">
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-content">
+            <h2>Match and connect with shortlisted universities</h2>
+            <p>Create connections and finalize your shortlist by speaking directly with staff at your matched universities.</p>
+            <button class="feature-button">Sign up for QS Connect<i class="fas fa-arrow-right"></i> </button>
+        </div>
+        <div class="feature-image">
+            <img src="row2-5.webp">
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-content">
+            <h2>Looking for financial support?</h2>
+            <p>Find out more about the US$111m available through QS and partner scholarships.</p>
+            <button class="feature-button">Explore our scholarships<i class="fas fa-arrow-right"></i> </button>
+        </div>
+        <div class="feature-image">
+            <img src="row2-6.webp">
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-content">
+            <h2>Need more advice on where to study?</h2>
+            <p>Learn more about student experiences at universities in the world’s most incredible cities and get advice on visas, finding accommodation and fun things to do once you’ve arrived.
+            </p>
+            <button class="feature-button">Read more <i class="fas fa-arrow-right"></i> </button>
+        </div>
+        <div class="feature-image">
+            <img src="row2-7.webp">
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-content">
+            <h2>QS ImpACT Scholarships</h2>
+            <p>Attend a QS event and you'll be eligible to apply for a prestigious QS ImpACT scholarship. You could be selected as one of the incredible students we support to pursue their academic goals.
+            </p>
+            <button class="feature-button">Apply for a QS impACT Scholarship<i class="fas fa-arrow-right"></i> </button>
+        </div>
+        <div class="feature-image">
+            <img src="row2-8.webp">
+        </div>
+    </div>
+</section>
+<!--Universities-->
+<section class="partner-universities">
+    <div class="section-title">
+        <h2>Over 650 Global Partner Universities</h2>
+    </div>
+    <div class="university-logos">
+        <div class="row">
+            <div class="column">
+                <img src="uni1.webp" alt="University Logo 1">
+                <img src="uni5.jpg" alt="University Logo 2">
+                <img src="uni9.webp" alt="University Logo 3">
+            </div>
+            <div class="column">
+                <img src="uni2.webp" alt="University Logo 4">
+                <img src="uni6.webp" alt="University Logo 5">
+                <img src="uni10.webp" alt="University Logo 6">
+            </div>
+            <div class="column">
+                <img src="uni3.jpg" alt="University Logo 7">
+                <img src="uni7.webp" alt="University Logo 8">
+                <img src="uni11.webp" alt="University Logo 9">
+            </div>
+            <div class="column">
+                <img src="uni4.webp" alt="University Logo 10">
+                <img src="uni8.webp" alt="University Logo 11">
+                <img src="uni12.webp" alt="University Logo 12">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<footer class="site-footer">
+    <div class="orange-strip"></div>
+    <div class="footer-content">
+        <div class="footer-left">
+            <div class="footer-links">
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">PRIVACY</a>
+                <a href="#">USERS</a>
+                <a href="#">COOKIES</a>
+                <a href="#">DATA</a>
+                <a href="#">COPYRIGHT</a>
+                <a href="#">TERMS & CONDITIONS</a>
+            </div>
+            <div class="footer-copy">
+                <p>© QS Quacquarelli Symonds Limited 1994 - 2024. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-social">
+                <a href="#"><img src="fb.png" alt="Facebook" class="social-icon"></a>
+                <a href="#"><img src="th.jpg" alt="Twitter" class="social-icon"></a>
+                <a href="#"><img src="linkedin.jpg" alt="LinkedIn" class="social-icon"></a>
+                <a href="#"><img src="yt.jpg" alt="YouTube" class="social-icon"></a>
+                <a href="#"><img src="insta.jpg "alt="Instagram" class="social-icon"></a>
+            </div>
+            <div class="footer-subscribe">
+                <p>Subscribe to Our Newsletter</p>
+                <input type="email" placeholder="Please write your email">
+            </div>
+           
+        </div>
+    </div>
+</footer>
+
+
+
+
